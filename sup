@@ -4,7 +4,7 @@
 #save file
 #chmod +x sup
 #sudo mv /path/to/sup /bin/sup
-
+#In terminal just type sup
 
 #Ubuntu
 #sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && sudo snap refresh
