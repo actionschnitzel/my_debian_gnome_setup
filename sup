@@ -1,3 +1,16 @@
 #!/bin/bash
 
-sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && sudo snap refresh
+#uncomment the your choice
+#save file
+#chmod +x sup
+#sudo mv /path/to/sup /bin/sup
+
+
+#Ubuntu
+#sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && sudo snap refresh
+Ubuntu + Flatpak
+sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && sudo snap refresh && flatpak update -y
+#APT Only
+#sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y
+#APT + Flatpak
+#sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && flatpak update -y
