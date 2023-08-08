@@ -8,9 +8,9 @@
 
 #Ubuntu
 #sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && sudo snap refresh
-Ubuntu + Flatpak
-sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && sudo snap refresh && flatpak update -y
+#Ubuntu + Flatpak
+sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && sudo snap refresh && && flatpak uninstall --unused -y && flatpak update -y 
 #APT Only
 #sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y
 #APT + Flatpak
-#sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && flatpak update -y
+#sudo apt update && sudo apt upgrade -y && sudo apt autoremove -y && flatpak uninstall --unused -y && flatpak update -y
