@@ -1,0 +1,1 @@
+gsettings reset org.gnome.shell.extensions.dash-to-dock click-action
