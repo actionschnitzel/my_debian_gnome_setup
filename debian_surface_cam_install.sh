@@ -4,3 +4,6 @@ cd libcamera
 meson build -Dpipelines=uvcvideo,vimc,ipu3 -Dipas=vimc,ipu3 -Dprefix=/usr -Dgstreamer=enabled -Dv4l2=true -Dbuildtype=release
 ninja -C build
 sudo ninja -C build install
+
+sudo usermod -aG video $USER
+newgrp video
