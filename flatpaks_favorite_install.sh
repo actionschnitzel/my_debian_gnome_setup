@@ -8,9 +8,6 @@ flatpak install flathub io.github.mimbrero.WhatsAppDesktop -y
 #Paraboloc
 flatpak install flathub org.nickvision.tubeconverter -y
 
-#Freetube
-flatpak install flathub io.freetubeapp.FreeTube -y
-
 #Telegram
 flatpak install flathub org.telegram.desktop -y
 
