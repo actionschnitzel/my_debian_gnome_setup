@@ -1,0 +1,13 @@
+#!/bin/bash
+
+#uncomment the your choice
+#save file
+#chmod +x sup
+#sudo mv /path/to/sup /bin/sup
+#In terminal just type sup
+
+# Ubuntu
+sudo nala upgrade -y && sudo snap refresh && flatpak uninstall --unused -y && flatpak update -y 
+# Debian
+#sudo nala upgrade -y && flatpak uninstall --unused -y && flatpak update -y 
+
