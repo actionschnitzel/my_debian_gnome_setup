@@ -19,7 +19,7 @@ gsettings set org.gnome.desktop.background show-desktop-icons false
 gsettings set org.nemo.desktop show-desktop-icons true
 ```
 
-### Adjust Mouse Pointer Size in GNOME
+### Adjust Mouse Pointer Size in Gnome
 
 ```bash
 gsettings set org.gnome.desktop.interface cursor-size 32
@@ -35,12 +35,13 @@ gsettings set org.cinnamon.desktop.default-applications.terminal exec tilix
 ```bash
 gsettings set org.gnome.desktop.default-applications.terminal exec tilix
 ```
-### Set GTK Theme, Window Decoration Theme, and Icon Theme in GNOME
+### Set GTK Theme, Window Decoration Theme, and Icon Theme in Gnome
 
 ```bash
 gsettings set org.gnome.desktop.interface gtk-theme "Yaru-dark"
 gsettings set org.gnome.desktop.wm.preferences theme "Yaru-dark"
 gsettings set org.gnome.desktop.interface icon-theme "Papirus-Dark"
+gsettings set org.gnome.desktop.interface cursor-theme "Bibata"
 ```
 
 ### Dash to Dock Minimize Behavior
