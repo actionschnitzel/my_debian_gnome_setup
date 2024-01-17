@@ -22,6 +22,8 @@ gsettings set org.gnome.desktop.interface cursor-size 32
 ```
 ### Konfiguriere das Standardterminal für Cinnamon
 ```
+gsettings set org.gnome.desktop.default-applications.terminal exec tilix
+
 gsettings set org.cinnamon.desktop.default-applications.terminal exec tilix
 ```
 ### Einstellung des GTK-Themas, des Fensterdekorationsthemas und des Symbolthemas in GNOME
