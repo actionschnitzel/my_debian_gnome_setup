@@ -1,7 +1,6 @@
 
-# Library Of Bash Install Scripts For Debian Bases Distros
-
-List:
+# Gnome + Debian/Ubuntu Stuff     
+     
 ### Gnome Extensions    
 https://extensions.gnome.org/extension/307/dash-to-dock/    
 https://extensions.gnome.org/extension/19/user-themes/    
