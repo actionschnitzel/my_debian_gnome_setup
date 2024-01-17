@@ -1,34 +1,50 @@
+# Gnome + Debian/Ubuntu Stuff
 
-# Gnome + Debian/Ubuntu Stuff     
-     
-## Gnome Extensions    
-https://extensions.gnome.org/extension/307/dash-to-dock/    
-https://extensions.gnome.org/extension/19/user-themes/    
-https://extensions.gnome.org/extension/4269/alphabetical-app-grid/    
-https://extensions.gnome.org/extension/517/caffeine/    
-https://extensions.gnome.org/extension/3843/just-perfection/     
-https://extensions.gnome.org/extension/615/appindicator-support/
+## Gnome Extensions
+
+- [**Dash to Dock**](https://extensions.gnome.org/extension/307/dash-to-dock/): Enhances the GNOME shell by providing a customizable and feature-rich dock.
+- [**User Themes**](https://extensions.gnome.org/extension/19/user-themes/): Allows users to easily switch and apply custom shell themes.
+- [**Alphabetical App Grid**](https://extensions.gnome.org/extension/4269/alphabetical-app-grid/): Organizes the application grid in alphabetical order for easier navigation.
+- [**Caffeine**](https://extensions.gnome.org/extension/517/caffeine/): A GNOME extension to prevent the system from going to sleep.
+- [**Just Perfection**](https://extensions.gnome.org/extension/3843/just-perfection/): Offers various enhancements and tweaks to improve the GNOME desktop experience.
+- [**AppIndicator Support**](https://extensions.gnome.org/extension/615/appindicator-support/): Adds support for AppIndicators in the GNOME shell.
 
 ## gsettings
-### Konfiguriere Nemo und den GNOME-Desktop
-```
+
+### Configure Nemo and the GNOME Desktop
+
+```bash
 xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search
 gsettings set org.gnome.desktop.background show-desktop-icons false
 gsettings set org.nemo.desktop show-desktop-icons true
 ```
-### Einstellung der Mauszeigegröße in GNOME
-```
+
+### Adjust Mouse Pointer Size in GNOME
+
+```bash
 gsettings set org.gnome.desktop.interface cursor-size 32
 ```
-### Konfiguriere das Standardterminal für Cinnamon
-```
-gsettings set org.gnome.desktop.default-applications.terminal exec tilix
 
+### Configure Default Terminal for Cinnamon
+
+```bash
 gsettings set org.cinnamon.desktop.default-applications.terminal exec tilix
 ```
-### Einstellung des GTK-Themas, des Fensterdekorationsthemas und des Symbolthemas in GNOME
+### Configure Default Terminal for Gnome
+
+```bash
+gsettings set org.gnome.desktop.default-applications.terminal exec tilix
 ```
+### Set GTK Theme, Window Decoration Theme, and Icon Theme in GNOME
+
+```bash
 gsettings set org.gnome.desktop.interface gtk-theme "Yaru-dark"
 gsettings set org.gnome.desktop.wm.preferences theme "Yaru-dark"
 gsettings set org.gnome.desktop.interface icon-theme "Papirus-Dark"
+```
+
+### Dash to Dock Minimize Behavior
+
+```bash
+gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-previews'
 ```
