@@ -1,6 +1,6 @@
 # Gnome + Debian/Ubuntu Stuff
 
-## Gnome Extensions
+### Gnome Extensions
 
 - [**Dash to Dock**](https://extensions.gnome.org/extension/307/dash-to-dock/): Enhances the GNOME shell by providing a customizable and feature-rich dock.
 - [**User Themes**](https://extensions.gnome.org/extension/19/user-themes/): Allows users to easily switch and apply custom shell themes.
@@ -9,10 +9,8 @@
 - [**Just Perfection**](https://extensions.gnome.org/extension/3843/just-perfection/): Offers various enhancements and tweaks to improve the GNOME desktop experience.
 - [**AppIndicator Support**](https://extensions.gnome.org/extension/615/appindicator-support/): Adds support for AppIndicators in the GNOME shell.
 
-## Bibata Cursor
-- [**Download**](https://github.com/ful1e5/Bibata_Cursor/releases/download/v2.0.5/Bibata-Modern-Classic.tar.xz)
-    
-## gsettings
+
+# gsettings
 
 ### Configure Nemo and the GNOME Desktop
 
@@ -52,3 +50,12 @@ gsettings set org.gnome.desktop.interface cursor-theme "Bibata"
 ```bash
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-previews'
 ```
+# 3rd Pary
+### Bibata Cursor
+- [**Download**](https://github.com/ful1e5/Bibata_Cursor/releases/download/v2.0.5/Bibata-Modern-Classic.tar.xz)
+### FreeTube
+- [**Download**](https://github.com/FreeTubeApp/FreeTube/releases)
+### VSCODE
+- [**Download**](https://code.visualstudio.com/#alt-downloads)
+
+
