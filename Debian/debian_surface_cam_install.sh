@@ -1,3 +1,5 @@
+#!/bin/bash
+
 sudo apt install build-essential meson ninja-build pkg-config libgnutls28-dev openssl python3-pip python3-yaml python3-ply python3-jinja2 qtbase5-dev libqt5core5a libqt5gui5 libqt5widgets5 qttools5-dev-tools libtiff-dev libevent-dev libyaml-dev gstreamer1.0-tools libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev git
 git clone https://git.libcamera.org/libcamera/libcamera.git
 cd libcamera
