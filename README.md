@@ -1,4 +1,5 @@
 # Gnome + Debian/Ubuntu Stuff
+All my fav stuff as one liners
      
 ### Install Linux on Surface
 ```
