@@ -1,5 +1,34 @@
 # Gnome + Debian/Ubuntu Stuff
+     
+### Install Linux on Surface
+```
+wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/Debian/debian_surface_kernel_install.sh | bash
+```
 
+### My Applications
+```
+wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/Debian/debian_misc_install.sh | bash
+```
+### Install SublimeText & Merge
+```
+wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/sublime_install.sh | bash
+```
+### Install Flatpak & Flatpak Apps
+```
+wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/flatpaks_favorite_install.sh | bash
+```
+### Install Papirus & Papirus-Folders + Yaru Theme
+```
+wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/Debian/debian_papirus_%2B_papirus_folder_install.sh | bash
+```
+### Install Nemo & Tilix + Make It Default
+```
+wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/nemo_%2B_tilix.sh | bash
+```
+### Remove All Gnome Games 
+```
+wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/gnome_remove_games.sh | bash
+```
 ### Gnome Extensions
 
 - [**Dash to Dock**](https://extensions.gnome.org/extension/307/dash-to-dock/): Enhances the GNOME shell by providing a customizable and feature-rich dock.
