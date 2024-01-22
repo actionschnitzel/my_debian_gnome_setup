@@ -41,6 +41,11 @@ wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setu
 ```
 wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/gnome_remove_games.sh | bash
 ```
+### Install Lutris
+```
+wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/install_lutris.sh | bash
+```
+
 ### Gnome Extensions
 
 - [**Dash to Dock**](https://extensions.gnome.org/extension/307/dash-to-dock/): Enhances the GNOME shell by providing a customizable and feature-rich dock.
