@@ -25,5 +25,22 @@ flatpak install flathub io.github.giantpinkrobots.flatsweep -y
 flatpak install flathub de.haeckerfelix.Shortwave -y
 
 #Warpinator
-flatpak install flathub org.x.Warpinator
+flatpak install flathub org.x.Warpinator -y
 
+#Flatseal
+flatpak install flathub com.github.tchx84.Flatseal -y
+
+#Shortwave
+flatpak install flathub de.haeckerfelix.Shortwave -y
+
+#Flatsweep
+flatpak install flathub io.github.giantpinkrobots.flatsweep -y
+
+#NewsFlash
+flatpak install flathub io.gitlab.news_flash.NewsFlash -y
+
+#SimpleScan
+flatpak install flathub org.gnome.SimpleScan -y
+
+#Spotify
+flatpak install flathub com.spotify.Client -y
