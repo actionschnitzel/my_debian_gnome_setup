@@ -4,7 +4,10 @@
 ```
 wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/Debian/debian_surface_kernel_install.sh | bash
 ```
-
+### Install/Compile Surface Cam Driver
+```
+wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/Debian/debian_surface_cam_install.sh | bash
+```
 ### My Applications
 ```
 wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/Debian/debian_misc_install.sh | bash
