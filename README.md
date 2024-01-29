@@ -45,6 +45,10 @@ wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setu
 ```
 wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/install_lutris.sh | bash
 ```
+### Beaver Notes
+```
+https://github.com/Daniele-rolli/Beaver-Notes/releases/latest
+```
 
 ### Gnome Extensions
 
