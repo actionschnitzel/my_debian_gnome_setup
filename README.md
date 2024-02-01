@@ -94,6 +94,10 @@ gsettings set org.gnome.desktop.wm.preferences theme "Yaru-dark"
 gsettings set org.gnome.desktop.interface icon-theme "Papirus-Dark"
 gsettings set org.gnome.desktop.interface cursor-theme "Bibata"
 ```
+### Change Nemo Terminal Emulator
+```
+gsettings set org.cinnamon.desktop.default-applications.terminal exec gnome-terminal
+```
 
 ### Dash to Dock Minimize Behavior
 
