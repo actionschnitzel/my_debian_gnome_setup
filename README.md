@@ -113,3 +113,8 @@ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-
 - [**Download**](https://code.visualstudio.com/#alt-downloads)
 
 
+### Citirx SSL Fix
+```bash
+sudo ln -s /usr/share/ca-certificates/mozilla/* /opt/Citrix/ICAClient/keystore/cacerts
+```
+
