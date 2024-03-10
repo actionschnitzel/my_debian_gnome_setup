@@ -104,6 +104,12 @@ gsettings set org.cinnamon.desktop.default-applications.terminal exec gnome-term
 ```bash
 gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-previews'
 ```
+### Center Window on start
+
+```bash
+gsettings set org.gnome.mutter center-new-windows true
+```
+
 # 3rd Pary
 ### Bibata Cursor
 - [**Download**](https://github.com/ful1e5/Bibata_Cursor/releases/download/v2.0.5/Bibata-Modern-Classic.tar.xz)
