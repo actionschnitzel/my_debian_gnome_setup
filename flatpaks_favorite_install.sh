@@ -44,3 +44,6 @@ flatpak install flathub org.gnome.SimpleScan -y
 
 #Spotify
 flatpak install flathub com.spotify.Client -y
+
+#freac.freac
+flatpak install flathub org.freac.freac -y
