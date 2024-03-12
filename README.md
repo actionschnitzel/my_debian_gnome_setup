@@ -51,7 +51,7 @@ https://github.com/Daniele-rolli/Beaver-Notes/releases/latest
 ```
 
 ### Gnome Extensions
-
+- [**Gnome Extensions Website**](https://extensions.gnome.org/)
 - [**Dash to Dock**](https://extensions.gnome.org/extension/307/dash-to-dock/): Enhances the GNOME shell by providing a customizable and feature-rich dock.
 - [**User Themes**](https://extensions.gnome.org/extension/19/user-themes/): Allows users to easily switch and apply custom shell themes.
 - [**Alphabetical App Grid**](https://extensions.gnome.org/extension/4269/alphabetical-app-grid/): Organizes the application grid in alphabetical order for easier navigation.
