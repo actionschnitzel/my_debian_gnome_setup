@@ -115,8 +115,8 @@ gsettings set org.gnome.mutter center-new-windows true
 - [**Download**](https://github.com/ful1e5/Bibata_Cursor/releases/download/v2.0.5/Bibata-Modern-Classic.tar.xz)
 ### FreeTube
 - [**Download**](https://github.com/FreeTubeApp/FreeTube/releases)
-### VSCODE
-- [**Download**](https://code.visualstudio.com/#alt-downloads)
+### VSCodium
+- [**Download**](https://github.com/VSCodium/vscodium/releases)
 
 
 ### Citirx SSL Fix
