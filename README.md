@@ -117,7 +117,10 @@ gsettings set org.gnome.mutter center-new-windows true
 - [**Download**](https://github.com/FreeTubeApp/FreeTube/releases)
 ### VSCodium
 - [**Download**](https://github.com/VSCodium/vscodium/releases)
-
+### ULauncher
+```bash
+sudo add-apt-repository universe -y && sudo add-apt-repository ppa:agornostal/ulauncher -y && sudo apt update && sudo apt install ulauncher
+```
 
 ### Citirx SSL Fix
 ```bash
