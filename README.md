@@ -131,3 +131,30 @@ sudo add-apt-repository universe -y && sudo add-apt-repository ppa:agornostal/ul
 sudo ln -s /usr/share/ca-certificates/mozilla/* /opt/Citrix/ICAClient/keystore/cacerts
 ```
 
+# Snap Nextcloud Stuff
+### Restart Nextcloud snap
+```bash
+sudo snap restart nextcloud
+```
+### Maintenance Mode
+```bash
+sudo nextcloud.occ maintenance:mode --on
+```
+
+```bash
+sudo nextcloud.occ maintenance:mode --off
+```
+
+### Disable HTTPS
+```bash
+sudo nextcloud.disable-https
+```
+
+### Enable Let's Encrypt
+```bash
+sudo -i nextcloud.enable-https lets-encrypt
+```
+### Repaire NC
+```bash
+sudo nextcloud.occ maintenance:repair
+```
