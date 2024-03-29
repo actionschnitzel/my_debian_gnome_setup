@@ -69,6 +69,10 @@ xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search
 gsettings set org.gnome.desktop.background show-desktop-icons false
 gsettings set org.nemo.desktop show-desktop-icons true
 ```
+### Enable HiDPI Fractional Scaling
+```bash
+gsettings set org.gnome.mutter experimental-features "['scale-monitor-framebuffer']"
+```
 
 ### Adjust Mouse Pointer Size in Gnome
 
@@ -117,10 +121,40 @@ gsettings set org.gnome.mutter center-new-windows true
 - [**Download**](https://github.com/FreeTubeApp/FreeTube/releases)
 ### VSCodium
 - [**Download**](https://github.com/VSCodium/vscodium/releases)
-
+### ULauncher
+```bash
+sudo add-apt-repository universe -y && sudo add-apt-repository ppa:agornostal/ulauncher -y && sudo apt update && sudo apt install ulauncher
+```
 
 ### Citirx SSL Fix
 ```bash
 sudo ln -s /usr/share/ca-certificates/mozilla/* /opt/Citrix/ICAClient/keystore/cacerts
 ```
 
+# Snap Nextcloud Stuff
+### Restart Nextcloud snap
+```bash
+sudo snap restart nextcloud
+```
+### Maintenance Mode
+```bash
+sudo nextcloud.occ maintenance:mode --on
+```
+
+```bash
+sudo nextcloud.occ maintenance:mode --off
+```
+
+### Disable HTTPS
+```bash
+sudo nextcloud.disable-https
+```
+
+### Enable Let's Encrypt
+```bash
+sudo -i nextcloud.enable-https lets-encrypt
+```
+### Repaire NC
+```bash
+sudo nextcloud.occ maintenance:repair
+```
