@@ -158,3 +158,46 @@ sudo -i nextcloud.enable-https lets-encrypt
 ```bash
 sudo nextcloud.occ maintenance:repair
 ```
+
+# Sublime Text
+
+### Markdown Live View
+
+- Type control+shift+p
+- Type “install” and select “Package Control: Install“
+- Type MarkdownLivePreview
+
+
+# Raspberry Pi 5 Nvme Settings
+
+```
+sudo nano /boot/firmware/config.txt
+```
+
+### Config.txt Settings
+```
+# Add to bottom of /boot/firmware/config.txt
+dtparam=pciex1
+
+# Note: You could also just add the following (it is an alias to the above line)
+# dtparam=nvme
+
+# Optionally, you can control the PCIe lane speed using this parameter
+dtparam=pciex1_gen=3
+```
+
+### EEPROM Settings
+```
+# Edit the EEPROM on the Raspberry Pi 5.
+sudo rpi-eeprom-config --edit
+
+# Change the BOOT_ORDER line to the following:
+BOOT_ORDER=0xf416
+
+# Add the following line if using a non-HAT+ adapter:
+PCIE_PROBE=1
+
+# Press Ctrl-O, then enter, to write the change to the file.
+# Press Ctrl-X to exit nano (the editor).
+
+```
