@@ -60,6 +60,7 @@ https://github.com/Daniele-rolli/Beaver-Notes/releases/latest
 - [**AppIndicator Support**](https://extensions.gnome.org/extension/615/appindicator-support/): Adds support for AppIndicators in the GNOME shell.
 
 
+---
 # :green_book: gsettings
 
 ### Configure Nemo and the GNOME Desktop
@@ -113,7 +114,7 @@ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-
 ```bash
 gsettings set org.gnome.mutter center-new-windows true
 ```
-
+---
 # 3rd Party Apps
 ### Bibata Cursor
 - [**Download**](https://github.com/ful1e5/Bibata_Cursor/releases/download/v2.0.5/Bibata-Modern-Classic.tar.xz)
@@ -130,7 +131,8 @@ sudo add-apt-repository universe -y && sudo add-apt-repository ppa:agornostal/ul
 ```bash
 sudo ln -s /usr/share/ca-certificates/mozilla/* /opt/Citrix/ICAClient/keystore/cacerts
 ```
-
+    
+----
 # :green_book: Snap Nextcloud Stuff
 ### Restart Nextcloud snap
 ```bash
@@ -159,7 +161,7 @@ sudo -i nextcloud.enable-https lets-encrypt
 sudo nextcloud.occ maintenance:repair
 ```
 
-    
+---
 # :green_book: Sublime Text
 
 ### Markdown Live View
@@ -168,6 +170,7 @@ sudo nextcloud.occ maintenance:repair
 - Type “install” and select “Package Control: Install“
 - Type MarkdownLivePreview
 
+---
 # :green_book: Raspberry Pi 5 Nvme Settings
 
 ```
@@ -185,7 +188,7 @@ dtparam=pciex1
 # Optionally, you can control the PCIe lane speed using this parameter
 dtparam=pciex1_gen=3
 ```
-
+    
 ### EEPROM Settings
 ```
 # Edit the EEPROM on the Raspberry Pi 5.
