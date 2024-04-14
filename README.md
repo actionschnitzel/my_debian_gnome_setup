@@ -1,3 +1,7 @@
+***A list of installation scripts, configurations, and commands for setting up my Linux environment.***
+
+   
+
 # :green_book: Gnome + Debian/Ubuntu Stuff
 
 ### My Applications
