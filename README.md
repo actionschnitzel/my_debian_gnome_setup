@@ -1,38 +1,10 @@
 # :green_book: Gnome + Debian/Ubuntu Stuff
-All my fav stuff as one liners
-     
-### Install Linux on Surface
-```
-wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/Debian/debian_surface_kernel_install.sh | bash
-```
-### Install/Compile Surface Cam Driver
-```
-wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/Debian/debian_surface_cam_install.sh | bash
-```
+
 ### My Applications
 ```
 wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/Debian/debian_misc_install.sh | bash
 ```
-### Install SublimeText & Merge
-```
-wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/sublime_install.sh | bash
-```
-### Install Brave Browser amd64
-```
-wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/brave_browser_amd64.sh | bash
-```
-### Install Brave Browser arm64
-```
-wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/brave_browser_arm64.sh | bash
-```
-### Install Flatpak & Flatpak Apps
-```
-wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/flatpaks_favorite_install.sh | bash
-```
-### Install Papirus & Papirus-Folders + Yaru Theme
-```
-wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/Debian/debian_papirus_%2B_papirus_folder_install.sh | bash
-```
+
 ### Install Nemo & Tilix + Make It Default
 ```
 wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/nemo_%2B_tilix.sh | bash
@@ -41,14 +13,18 @@ wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setu
 ```
 wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/gnome_remove_games.sh | bash
 ```
-### Install Lutris
+
+---
+# :green_book: Linux On Surface
+### Install Linux on Surface
 ```
-wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/install_lutris.sh | bash
+wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/Debian/debian_surface_kernel_install.sh | bash
 ```
-### Beaver Notes
+### Install/Compile Surface Cam Driver
 ```
-https://github.com/Daniele-rolli/Beaver-Notes/releases/latest
+wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/Debian/debian_surface_cam_install.sh | bash
 ```
+
 ---
 # :green_book: Gnome Extensions
 - [**Gnome Extensions Website**](https://extensions.gnome.org/)
@@ -131,7 +107,34 @@ sudo add-apt-repository universe -y && sudo add-apt-repository ppa:agornostal/ul
 ```bash
 sudo ln -s /usr/share/ca-certificates/mozilla/* /opt/Citrix/ICAClient/keystore/cacerts
 ```
-    
+### Install Lutris
+```
+wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/install_lutris.sh | bash
+```
+### Beaver Notes
+```
+https://github.com/Daniele-rolli/Beaver-Notes/releases/latest
+```
+### Install SublimeText & Merge
+```
+wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/sublime_install.sh | bash
+```
+### Install Brave Browser amd64
+```
+wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/brave_browser_amd64.sh | bash
+```
+### Install Brave Browser arm64
+```
+wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/brave_browser_arm64.sh | bash
+```
+### Install Flatpak & Flatpak Apps
+```
+wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/flatpaks_favorite_install.sh | bash
+```
+### Install Papirus & Papirus-Folders + Yaru Theme
+```
+wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/Debian/debian_papirus_%2B_papirus_folder_install.sh | bash
+```
 ----
 # :green_book: Snap Nextcloud Stuff
 ### Restart Nextcloud snap
