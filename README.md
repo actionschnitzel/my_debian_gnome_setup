@@ -1,4 +1,4 @@
-# Gnome + Debian/Ubuntu Stuff
+# :green_book: Gnome + Debian/Ubuntu Stuff
 All my fav stuff as one liners
      
 ### Install Linux on Surface
@@ -60,7 +60,7 @@ https://github.com/Daniele-rolli/Beaver-Notes/releases/latest
 - [**AppIndicator Support**](https://extensions.gnome.org/extension/615/appindicator-support/): Adds support for AppIndicators in the GNOME shell.
 
 
-# gsettings
+# :green_book: gsettings
 
 ### Configure Nemo and the GNOME Desktop
 
@@ -131,7 +131,7 @@ sudo add-apt-repository universe -y && sudo add-apt-repository ppa:agornostal/ul
 sudo ln -s /usr/share/ca-certificates/mozilla/* /opt/Citrix/ICAClient/keystore/cacerts
 ```
 
-# Snap Nextcloud Stuff
+# :green_book: Snap Nextcloud Stuff
 ### Restart Nextcloud snap
 ```bash
 sudo snap restart nextcloud
@@ -159,7 +159,8 @@ sudo -i nextcloud.enable-https lets-encrypt
 sudo nextcloud.occ maintenance:repair
 ```
 
-# Sublime Text
+    
+# :green_book: Sublime Text
 
 ### Markdown Live View
 
@@ -167,8 +168,7 @@ sudo nextcloud.occ maintenance:repair
 - Type “install” and select “Package Control: Install“
 - Type MarkdownLivePreview
 
-
-# Raspberry Pi 5 Nvme Settings
+# :green_book: Raspberry Pi 5 Nvme Settings
 
 ```
 sudo nano /boot/firmware/config.txt
