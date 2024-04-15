@@ -2,9 +2,9 @@
 
    
 
-# :green_book: Gnome + Debian/Ubuntu Stuff
+# :green_book: Gnome + Debian/Ubuntu Stuff 
 
-### My Applications
+### My Applications (```.deb```)
 ```
 wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/Debian/debian_misc_install.sh | bash
 ```
