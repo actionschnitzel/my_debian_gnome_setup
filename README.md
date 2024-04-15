@@ -43,7 +43,7 @@ wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setu
 ---
 # :green_book: gsettings
 
-### Configure Nemo and the GNOME Desktop
+### Configure Nemo as default on GNOME Desktop
 
 ```bash
 xdg-mime default nemo.desktop inode/directory application/x-gnome-saved-search
