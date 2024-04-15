@@ -115,7 +115,7 @@ sudo ln -s /usr/share/ca-certificates/mozilla/* /opt/Citrix/ICAClient/keystore/c
 ```
 wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/install_lutris.sh | bash
 ```
-### Beaver Notes
+### Beaver Notes Github
 ```
 https://github.com/Daniele-rolli/Beaver-Notes/releases/latest
 ```
@@ -123,13 +123,9 @@ https://github.com/Daniele-rolli/Beaver-Notes/releases/latest
 ```
 wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/sublime_install.sh | bash
 ```
-### Install Brave Browser amd64
+### Install Brave Browser
 ```
 wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/brave_browser_amd64.sh | bash
-```
-### Install Brave Browser arm64
-```
-wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/brave_browser_arm64.sh | bash
 ```
 ### Install Flatpak & Flatpak Apps
 ```
