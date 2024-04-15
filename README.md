@@ -77,7 +77,7 @@ gsettings set org.gnome.desktop.default-applications.terminal exec tilix
 gsettings set org.gnome.desktop.interface gtk-theme "Yaru-dark"
 gsettings set org.gnome.desktop.wm.preferences theme "Yaru-dark"
 gsettings set org.gnome.desktop.interface icon-theme "Papirus-Dark"
-gsettings set org.gnome.desktop.interface cursor-theme "Bibata"
+gsettings set org.gnome.desktop.interface cursor-theme "Bibata-Modern-Classic"
 ```
 ### Change Nemo Terminal Emulator
 ```
