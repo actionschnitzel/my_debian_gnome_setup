@@ -172,7 +172,38 @@ sudo nextcloud.occ maintenance:repair
 - Type control+shift+p
 - Type “install” and select “Package Control: Install“
 - Type MarkdownLivePreview
+---
+# :green_book: All in One Updater
 
+### Debian + Flatpak
+```
+sudo touch /bin/all-up
+```
+
+```
+sudo nala upgrade -y && flatpak uninstall --unused -y && flatpak update -y
+```
+
+```Strg``` + ```O``` > ```ENTER``` > ```Strg``` + ```X```
+
+```
+sudo chmod + x all-up
+```
+
+### Ubuntu + Flatpak
+```
+sudo touch /bin/all-up
+```
+
+```
+sudo nala upgrade -y && sudo snap refresh && flatpak uninstall --unused -y && flatpak update -y
+```
+
+```Strg``` + ```O``` > ```ENTER``` > ```Strg``` + ```X```
+
+```
+sudo chmod + x all-up
+```
 ---
 # :green_book: Raspberry Pi 5 Nvme Settings
 
