@@ -94,6 +94,12 @@ gsettings set org.gnome.shell.extensions.dash-to-dock click-action 'minimize-or-
 ```bash
 gsettings set org.gnome.mutter center-new-windows true
 ```
+
+### Disable Animations
+```bash
+gsettings set org.gnome.desktop.interface enable-animations false
+```
+
 ---
 # :green_book: 3rd Party Apps
 ### Bibata Cursor
