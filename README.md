@@ -183,7 +183,7 @@ sudo nextcloud.occ maintenance:repair
 
 ### Debian + Flatpak
 ```
-sudo touch /bin/all-up
+sudo nano /bin/all-up
 ```
 
 ```
@@ -198,11 +198,11 @@ sudo chmod + x all-up
 
 ### Ubuntu + Flatpak
 ```
-sudo touch /bin/all-up
+sudo nano /bin/all-up
 ```
 
 ```
-sudo nala upgrade -y && sudo snap refresh && flatpak uninstall --unused -y && flatpak update -y
+sudo apt update -y && sudo apt upgrade -y && sudo snap refresh && flatpak uninstall --unused -y && flatpak update -y
 ```
 
 ```Strg``` + ```O``` > ```ENTER``` > ```Strg``` + ```X```
