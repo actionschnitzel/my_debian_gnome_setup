@@ -38,7 +38,7 @@ wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setu
 - [**Caffeine**](https://extensions.gnome.org/extension/517/caffeine/): A GNOME extension to prevent the system from going to sleep.
 - [**Just Perfection**](https://extensions.gnome.org/extension/3843/just-perfection/): Offers various enhancements and tweaks to improve the GNOME desktop experience.
 - [**AppIndicator Support**](https://extensions.gnome.org/extension/615/appindicator-support/): Adds support for AppIndicators in the GNOME shell.
-- [**Media Progress**](https://extensions.gnome.org/extension/6940/media-progress/)
+- [**Media Progress**](https://extensions.gnome.org/extension/6940/media-progress/): Adds Progressbar to Media View
 
 
 ---
