@@ -162,7 +162,15 @@ sudo nextcloud.occ maintenance:mode --off
 sudo nextcloud.disable-https
 ```
 
-### Enable Let's Encrypt
+### Enable Let's Encrypt / If the renewal fails
+```bash
+sudo rm -rf /var/snap/nextcloud/current/certs
+```
+
+```bash
+sudo mkdir -p /var/snap/nextcloud/current/certs/certbot
+```
+
 ```bash
 sudo -i nextcloud.enable-https lets-encrypt
 ```
