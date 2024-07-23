@@ -192,32 +192,33 @@ sudo nextcloud.occ maintenance:repair
 
 ### Debian + Flatpak
 ```
-sudo nano /bin/all-up
+nano .bash_aliases
 ```
 
 ```
-sudo nala upgrade -y && flatpak uninstall --unused -y && flatpak update -y
+alias all-up='sudo apt update -y && sudo apt upgrade -y && flatpak uninstall --unused -y && flatpak update -y'
 ```
+
 
 ```Strg``` + ```O``` > ```ENTER``` > ```Strg``` + ```X```
 
 ```
-sudo chmod + x all-up
+source ~/.bash_aliases
 ```
 
 ### Ubuntu + Flatpak
 ```
-sudo nano /bin/all-up
+nano .bash_aliases
 ```
 
 ```
-sudo apt update -y && sudo apt upgrade -y && sudo snap refresh && flatpak uninstall --unused -y && flatpak update -y
+alias all-up='sudo apt update -y && sudo apt upgrade -y && sudo snap refresh && flatpak uninstall --unused -y && flatpak update -y'
 ```
 
 ```Strg``` + ```O``` > ```ENTER``` > ```Strg``` + ```X```
 
 ```
-sudo chmod + x all-up
+source ~/.bash_aliases
 ```
 ---
 # :green_book: Raspberry Pi 5 Nvme Settings
