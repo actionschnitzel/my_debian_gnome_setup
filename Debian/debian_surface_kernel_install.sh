@@ -8,10 +8,4 @@ wget -qO - https://raw.githubusercontent.com/linux-surface/linux-surface/master/
 echo "deb [arch=amd64] https://pkg.surfacelinux.com/debian release main" \
 	| sudo tee /etc/apt/sources.list.d/linux-surface.list
 
-sudo apt update
-
-sudo apt install linux-image-surface linux-headers-surface libwacom-surface iptsd
-
-sudo apt install linux-surface-secureboot-mok
-
-sudo update-grub
+sudo apt update && sudo apt install -y linux-image-surface linux-headers-surface libwacom-surface iptsd linux-surface-secureboot-mok && sudo update-grub
