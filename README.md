@@ -20,6 +20,7 @@ wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setu
 
 ---
 # :green_book: Linux On Surface
+https://github.com/linux-surface/linux-surface
 ### Install Linux on Surface
 ```
 wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/Debian/debian_surface_kernel_install.sh | bash
