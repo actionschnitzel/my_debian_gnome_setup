@@ -8,11 +8,11 @@
 ```
 wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/Debian/debian_misc_install.sh | bash
 ```
+### Change Defaul Terminal-Emulator
+```
+sudo update-alternatives --config x-terminal-emulator
+```
 
-### Install Nemo & Tilix + Make It Default
-```
-wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/nemo_%2B_tilix.sh | bash
-```
 ### Remove All Gnome Games 
 ```
 wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/gnome_remove_games.sh | bash
