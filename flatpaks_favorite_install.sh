@@ -1,5 +1,6 @@
 #!/bin/bash
 
+# All For amd64
 sudo apt install flatpak -y
 
 flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
@@ -21,9 +22,6 @@ flatpak install flathub com.discordapp.Discord -y
 #Flatsweep
 flatpak install flathub io.github.giantpinkrobots.flatsweep -y
 
-#ShortWave
-flatpak install flathub de.haeckerfelix.Shortwave -y
-
 #Warpinator
 flatpak install flathub org.x.Warpinator -y
 
@@ -41,3 +39,9 @@ flatpak install flathub com.spotify.Client -y
 
 #freac.freac
 flatpak install flathub org.freac.freac -y
+
+#Apostrophe
+flatpak install flathub org.gnome.gitlab.somas.Apostrophe
+
+#EasySSH
+flatpak install flathub com.github.muriloventuroso.easyssh
