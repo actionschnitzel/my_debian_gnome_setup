@@ -8,7 +8,7 @@
 ```
 wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/Debian/debian_misc_install.sh | bash
 ```
-### Change Defaul Terminal-Emulator
+### Change Default Terminal-Emulator
 ```
 sudo update-alternatives --config x-terminal-emulator
 ```
