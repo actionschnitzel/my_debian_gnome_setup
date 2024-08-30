@@ -17,6 +17,12 @@ sudo update-alternatives --config x-terminal-emulator
 ```
 wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/gnome_remove_games.sh | bash
 ```
+### Yaru Theme On Debian
+```
+sudo apt install yaru-theme-gnome-shell
+sudo apt install yaru-theme-gtk
+sudo apt install yaru-theme-icon
+```
 
 ---
 # :green_book: Linux On Surface
