@@ -187,6 +187,38 @@ sudo nextcloud.occ maintenance:repair
 ```
 
 ---
+
+# :green_book: Nextcloud as $HOME on seperate Partition
+### Structure on NC
+- Bilder (Pictures)
+- Videos (Videos)
+- Dokumente (Documents)
+- Downloads (Downloads)
+- Musik (Music)
+- Öffentlich (Public)
+- Vorlagen (Templates)
+### How to create a Sym-Link
+```
+ln -s <PATH/TO/FOLDER> <PATH/TO/SYM-LINK>
+```
+### Update USER-DIRS
+```
+xdg-user-dirs-update
+```
+### Set USER-DIRS
+#### FOLDER-NAMES
+DESKTOP → Schreibtisch
+DOWNLOAD → Downloads
+TEMPLATES → Vorlagen
+PUBLICSHARE → Öffentlich
+DOCUMENTS → Dokumente
+MUSIC → Musik
+PICTURES → Bilder
+VIDEOS → Videos
+
+```
+xdg-user-dirs-update --set <FOLDER-NAME> <PATH/TO/LINKED/FOLDER>
+```
 # :green_book: Sublime Text
 
 ### Markdown Live View
@@ -194,6 +226,8 @@ sudo nextcloud.occ maintenance:repair
 - Type control+shift+p
 - Type “install” and select “Package Control: Install“
 - Type MarkdownLivePreview
+
+----
 ---
 # :green_book: All in One Updater
 
