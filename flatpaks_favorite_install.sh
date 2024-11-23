@@ -16,7 +16,7 @@ flatpak install flathub com.github.geigi.cozy -y
 # EasySSH	
 flatpak install flathub com.github.muriloventuroso.easyssh -y
 
-Flatseal	
+# Flatseal	
 flatpak install flathub com.github.tchx84.Flatseal -y
 
 # ZapZap	
