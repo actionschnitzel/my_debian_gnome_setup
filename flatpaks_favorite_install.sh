@@ -7,41 +7,50 @@ flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.f
 
 #My Favorit Flatpaks
 
-#Whatsapp
-flatpak install flathub io.github.mimbrero.WhatsAppDesktop -y
+# Frogatto & Friends	
+flatpak install flathub com.frogatto.Frogatto -y
 
-#Paraboloc
-flatpak install flathub org.nickvision.tubeconverter -y
+# Cozy	
+flatpak install flathub com.github.geigi.cozy -y
 
-#Telegram
-flatpak install flathub org.telegram.desktop -y
+# EasySSH	
+flatpak install flathub com.github.muriloventuroso.easyssh -y
 
-#Discord
-flatpak install flathub com.discordapp.Discord -y
-
-#Flatsweep
-flatpak install flathub io.github.giantpinkrobots.flatsweep -y
-
-#Warpinator
-flatpak install flathub org.x.Warpinator -y
-
-#Flatseal
+Flatseal	
 flatpak install flathub com.github.tchx84.Flatseal -y
 
-#NewsFlash
+# ZapZap	
+flatpak install flathub com.rtosta.zapzap -y
+
+# Shortwave	
+flatpak install flathub de.haeckerfelix.Shortwave -y
+
+# Forecast	
+flatpak install flathub dev.salaniLeo.forecast -y
+
+# AntiMicroX	
+flatpak install flathub io.github.antimicrox.antimicrox	-y
+
+# Flatsweep	
+flatpak install flathub io.github.giantpinkrobots.flatsweep -y
+
+# Newsflash
 flatpak install flathub io.gitlab.news_flash.NewsFlash -y
 
-#SimpleScan
-flatpak install flathub org.gnome.SimpleScan -y
+# EasyTAG
+flatpak install flathub org.gnome.EasyTAG -y
 
-#Spotify
-flatpak install flathub com.spotify.Client -y
+# Apostrophe
+flatpak install flathub org.gnome.gitlab.somas.Apostrophe -y
 
-#freac.freac
-flatpak install flathub org.freac.freac -y
+# Amarok
+flatpak install flathub org.kde.amarok -y
 
-#Apostrophe
-flatpak install flathub org.gnome.gitlab.somas.Apostrophe
+# Parabolic
+flatpak install flathub org.nickvision.tubeconverter -y
 
-#EasySSH
-flatpak install flathub com.github.muriloventuroso.easyssh
+# Warpinator
+flatpak install flathub org.x.Warpinator -y
+
+# Paperwork
+flatpak install flathub work.openpaper.Paperwork -y
