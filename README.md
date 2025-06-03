@@ -6,7 +6,7 @@
 
 ### My Applications (```.deb```)
 ```
-wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/Debian/debian_misc_install.sh | bash
+sudo apt update && sudo apt install -y synaptic tilix btop vlc gparted  git keepassxc nextcloud-desktop foliate
 ```
 ### Change Default Terminal-Emulator
 ```
@@ -135,7 +135,7 @@ https://github.com/Daniele-rolli/Beaver-Notes/releases/latest
 ```
 ### Install SublimeText & Merge
 ```
-wget -qO- https://raw.githubusercontent.com/actionschnitzel/my_debian_gnome_setup/main/sublime_install.sh | bash
+curl -fsS https://dl.brave.com/install.sh | sh
 ```
 ### Install Brave Browser
 ```
